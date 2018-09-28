@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE XDNA!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZEON&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE ZEON!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres XDNA jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ZEON jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,12 +518,12 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>&amp;Rdzeń XDNA</translation>
+        <source>ZEON Core</source>
+        <translation>&amp;Rdzeń ZEON</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Wyślij monety do adresu XDNA</translation>
+        <source>Send coins to a ZEON address</source>
+        <translation>Wyślij monety do adresu ZEON</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
+        <source>&amp;About ZEON Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
+        <source>Show information about ZEON Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Modyfikuj opcje konfiguracji XDNA</translation>
+        <source>Modify configuration options for ZEON</source>
+        <translation>Modyfikuj opcje konfiguracji ZEON</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami XDNA, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your ZEON addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami ZEON, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu XDNA</translation>
+        <source>Verify messages to ensure they were signed with specified ZEON addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ZEON</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Otwórz XDNA: URI i żądanie zapłaty</translation>
+        <source>Open a ZEON: URI or payment request</source>
+        <translation>Otwórz ZEON: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia XDNA, aby dostać listę możliwych opcji XDNA command-line</translation>
+        <source>Show the ZEON Core help message to get a list with possible ZEON command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia ZEON, aby dostać listę możliwych opcji ZEON command-line</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>Rdzeń XDNA klient</translation>
+        <source>ZEON Core client</source>
+        <translation>Rdzeń ZEON klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,8 +916,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>&amp;Rdzeń XDNA</translation>
+        <source>ZEON Core</source>
+        <translation>&amp;Rdzeń ZEON</translation>
     </message>
     </context>
 <context>
@@ -931,8 +931,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>&amp;Rdzeń XDNA</translation>
+        <source>ZEON Core</source>
+        <translation>&amp;Rdzeń ZEON</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start XDNA after logging in to the system.</source>
-        <translation>Automatycznie uruchom XDNA po zalogowaniu do systemu</translation>
+        <source>Automatically start ZEON after logging in to the system.</source>
+        <translation>Automatycznie uruchom ZEON po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start XDNA on system login</source>
-        <translation>&amp;Uruchom XDNA podczas logowania do systemu</translation>
+        <source>&amp;Start ZEON on system login</source>
+        <translation>&amp;Uruchom ZEON podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of XDNA to keep anonymized</source>
-        <translation>Liczba XDNA do anonimizacji</translation>
+        <source>Amount of ZEON to keep anonymized</source>
+        <translation>Liczba ZEON do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,8 +1220,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting XDNA.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie XDNA</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ZEON.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ZEON</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1230,8 +1230,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations</source>
 https://www.transifex.com/xdna-project/xdna-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the XDNA network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią XDNA poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the ZEON network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią ZEON poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1373,8 +1373,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations </translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 XDNA / 0 Rounds</source>
-        <translation>0 XDNA / 0 Rund</translation>
+        <source>0 ZEON / 0 Rounds</source>
+        <translation>0 ZEON / 0 Rund</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations </translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a XDNA address (e.g. %1)</source>
-        <translation>Wprowadź adres XDNA (np. %1)</translation>
+        <source>Enter a ZEON address (e.g. %1)</source>
+        <translation>Wprowadź adres ZEON (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations </translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres XDNA jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ZEON jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,8 +1932,8 @@ https://www.transifex.com/xdna-project/xdna-project-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>&amp;Rdzeń XDNA</translation>
+        <source>ZEON Core</source>
+        <translation>&amp;Rdzeń ZEON</translation>
     </message>
     </context>
 <context>

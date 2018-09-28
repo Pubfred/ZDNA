@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNASupply">
+    <widget class="QLabel" name="ZEONSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyXDNA">
+    <widget class="QPushButton" name="BuyZEON">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy XDNA</string>
+      <string>Buy ZEON</string>
      </property>
      <property name="icon">
       <iconset resource="../xdna.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>XDNA</string>
+      <string>ZEON</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>XDNA</string>
+      <string>ZEON</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputXDNA">
+    <widget class="QLineEdit" name="UnitsInputZEON">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellXDNABTN">
+    <widget class="QPushButton" name="SellZEONBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell XDNA</string>
+      <string>Sell ZEON</string>
      </property>
      <property name="icon">
       <iconset resource="../xdna">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>XDNA Available:</string>
+         <string>ZEON Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="XDNAAvailableLabel">
+       <widget class="QLabel" name="ZEONAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelXDNA">
+       <widget class="QLabel" name="labelZEON">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>XDNA</string>
+         <string>ZEON</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNABalanceLabel">
+    <widget class="QLabel" name="ZEONBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>XDNA Balance:</string>
+      <string>ZEON Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNAAvailableLabel_2">
+    <widget class="QLabel" name="ZEONAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>XDNA Available:</string>
+      <string>ZEON Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>XDNA Pending:</string>
+      <string>ZEON Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="XDNAPendingLabel">
+    <widget class="QLabel" name="ZEONPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex XDNA Deposit Address:</string>
+      <string>Bittrex ZEON Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate XDNA Deposit Address</string>
+      <string>Generate ZEON Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../xdna.qrc">

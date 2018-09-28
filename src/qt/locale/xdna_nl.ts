@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw XDNAadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your ZEON addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw ZEONadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw XDNAadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your ZEON addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw ZEONadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw XDNAs stelen.</translation>
+        <source>ZEON will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZEONs from being stolen by malware infecting your computer.</source>
+        <translation>ZEON zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw ZEONs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW XDNA VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZEON&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW ZEON VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een XDNA adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a ZEON Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een ZEON adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Het XDNA adres om het bericht met te ondertekenen</translation>
+        <source>The ZEON address to sign the message with</source>
+        <translation>Het ZEON adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het XDNA adres bezit</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het ZEON adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>Het XDNA adres waarmee het bericht was ondertekend</translation>
+        <source>The ZEON address the message was signed with</source>
+        <translation>Het ZEON adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde XDNA adres</translation>
+        <source>Verify the message to ensure it was signed with the specified ZEON address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ZEON adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Kern</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Kern</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Verstuur munten naar een XDNA adres</translation>
+        <source>Send coins to a ZEON address</source>
+        <translation>Verstuur munten naar een ZEON adres</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en XDNA: URI's)</translation>
+        <translation>Vraag betaling aan (genereert QR-codes en ZEON: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;Over XDNA Kern</translation>
+        <source>&amp;About ZEON Core</source>
+        <translation>&amp;Over ZEON Kern</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Toon informatie over XDNA Kern</translation>
+        <source>Show information about ZEON Core</source>
+        <translation>Toon informatie over ZEON Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Wijzig XDNA configuratie opties</translation>
+        <source>Modify configuration options for ZEON</source>
+        <translation>Wijzig ZEON configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw XDNA adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your ZEON addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw ZEON adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde XDNA adressen</translation>
+        <source>Verify messages to ensure they were signed with specified ZEON addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde ZEON adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Open een XDNA: URI of betaalverzoek</translation>
+        <source>Open a ZEON: URI or payment request</source>
+        <translation>Open een ZEON: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>XDNA Core client</translation>
+        <source>ZEON Core client</source>
+        <translation>ZEON Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to XDNA network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het XDNA netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het XDNA netwerk</numerusform></translation>
+        <source>%n active connection(s) to ZEON network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het ZEON netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het ZEON netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1010,8 +1010,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XDNA address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig XDNA adres.</translation>
+        <source>The entered address "%1" is not a valid ZEON address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig ZEON adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1040,16 +1040,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Kern</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>Over XDNA Core</translation>
+        <source>About ZEON Core</source>
+        <translation>Over ZEON Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1079,16 +1079,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Welkom bij XDNA Core</translation>
+        <source>Welcome to ZEON Core.</source>
+        <translation>Welkom bij ZEON Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Kern</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1300,24 +1300,24 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start XDNA after logging in to the system.</source>
-        <translation>XDNA automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start ZEON after logging in to the system.</source>
+        <translation>ZEON automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start XDNA on system login</source>
-        <translation>&amp;XDNA starten bij systeemlogin</translation>
+        <source>&amp;Start ZEON on system login</source>
+        <translation>&amp;ZEON starten bij systeemlogin</translation>
     </message>
     <message>
-        <source>Amount of XDNA to keep anonymized</source>
-        <translation>Hoeveelheid XDNA anoniem te houden</translation>
+        <source>Amount of ZEON to keep anonymized</source>
+        <translation>Hoeveelheid ZEON anoniem te houden</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting XDNA.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van XDNA.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ZEON.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van ZEON.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1427,8 +1427,8 @@ MultiSend: %1</translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 XDNA / 0 Rounds</source>
-        <translation>0 XDNA / 0 Rondes</translation>
+        <source>0 ZEON / 0 Rounds</source>
+        <translation>0 ZEON / 0 Rondes</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1512,8 +1512,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a XDNA address (e.g. %1)</source>
-        <translation>Voer een XDNA adres in (b.v. %1)</translation>
+        <source>Enter a ZEON address (e.g. %1)</source>
+        <translation>Voer een ZEON adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1702,8 +1702,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the XDNA RPC console.</source>
-        <translation>Welkom bij de XDNA RPC console.</translation>
+        <source>Welcome to the ZEON RPC console.</source>
+        <translation>Welkom bij de ZEON RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1894,8 +1894,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 XDNA</source>
-        <translation>0 XDNA</translation>
+        <source>0 ZEON</source>
+        <translation>0 ZEON</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2024,8 +2024,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XDNA Core is shutting down...</source>
-        <translation>XDNA Core is aan het afsluiten...</translation>
+        <source>ZEON Core is shutting down...</source>
+        <translation>ZEON Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
@@ -2035,8 +2035,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Het XDNA adres om het bericht met te ondertekenen</translation>
+        <source>The ZEON address to sign the message with</source>
+        <translation>Het ZEON adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2067,16 +2067,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het XDNA adres bezit</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het ZEON adres bezit</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>Het XDNA adres waarmee het bericht was ondertekend</translation>
+        <source>The ZEON address the message was signed with</source>
+        <translation>Het ZEON adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde XDNA adres</translation>
+        <source>Verify the message to ensure it was signed with the specified ZEON address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ZEON adres</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2134,8 +2134,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Kern</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2150,8 +2150,8 @@ MultiSend: %1</translation>
         <translation>De Dash Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The XDNA Core developers</source>
-        <translation>De XDNA Core ontwikkelaars</translation>
+        <source>The ZEON Core developers</source>
+        <translation>De ZEON Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2508,8 +2508,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDNA Core Developers</source>
-        <translation>Copyright (C) 2017-%i The XDNA Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The ZEON Core Developers</source>
+        <translation>Copyright (C) 2017-%i The ZEON Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Error</source>

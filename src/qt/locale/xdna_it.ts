@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi XDNA per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your ZEON addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi ZEON per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi XDNA per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your ZEON addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi ZEON per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XDNA dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>ZEON will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DNAs from being stolen by malware infecting your computer.</source>
+        <translation>ZEON verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi ZEON dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI XDNA&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZEON&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI ZEON&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo XDNA che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a ZEON Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo ZEON che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>L'indirizzo XDNA per firmare il messaggio con</translation>
+        <source>The ZEON address to sign the message with</source>
+        <translation>L'indirizzo ZEON per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XDNA</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ZEON</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>L'indirizzo XDNA con cui è stato firmato il messaggio</translation>
+        <source>The ZEON address the message was signed with</source>
+        <translation>L'indirizzo ZEON con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XDNA specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ZEON address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ZEON specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,12 +590,12 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Invia monete all' indirizzo XDNA</translation>
+        <source>Send coins to a ZEON address</source>
+        <translation>Invia monete all' indirizzo ZEON</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;Informazioni XDNA Core</translation>
+        <source>&amp;About ZEON Core</source>
+        <translation>&amp;Informazioni ZEON Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Visualizza informazioni su XDNA Core</translation>
+        <source>Show information about ZEON Core</source>
+        <translation>Visualizza informazioni su ZEON Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Modifica le opzioni di configurazione per XDNA</translation>
+        <source>Modify configuration options for ZEON</source>
+        <translation>Modifica le opzioni di configurazione per ZEON</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi XDNA per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your ZEON addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi ZEON per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi XDNA specifici</translation>
+        <source>Verify messages to ensure they were signed with specified ZEON addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ZEON specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Apri un XDNA: URI o richiesta di pagamento</translation>
+        <source>Open a ZEON: URI or payment request</source>
+        <translation>Apri un ZEON: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Mostra il messaggio di aiuto XDNA Core per ottenere un elenco con le possibili opzioni di riga di comando XDNA</translation>
+        <source>Show the ZEON Core help message to get a list with possible ZEON command-line options</source>
+        <translation>Mostra il messaggio di aiuto ZEON Core per ottenere un elenco con le possibili opzioni di riga di comando ZEON</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -919,8 +919,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1105,8 +1105,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>L'indirizzo XDNA per firmare il messaggio con</translation>
+        <source>The ZEON address to sign the message with</source>
+        <translation>L'indirizzo ZEON per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1129,16 +1129,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XDNA</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ZEON</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>L'indirizzo XDNA con cui è stato firmato il messaggio</translation>
+        <source>The ZEON address the message was signed with</source>
+        <translation>L'indirizzo ZEON con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XDNA specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ZEON address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ZEON specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1176,8 +1176,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     </context>
 <context>

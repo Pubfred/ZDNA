@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše XDNA adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your ZEON addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše ZEON adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše XDNA adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your ZEON addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše ZEON adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše XDNA pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>ZEON will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZEONs from being stolen by malware infecting your computer.</source>
+        <translation>ZEON sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše ZEON pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY XDNA &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZEON&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY ZEON &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a XDNA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu XDNA, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a ZEON Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu ZEON, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Adresa XDNA, ktorou chcete správu podpísať</translation>
+        <source>The ZEON address to sign the message with</source>
+        <translation>Adresa ZEON, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto XDNA adresy</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto ZEON adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>XDNA adresa, ktorou bola správa podpísaná</translation>
+        <source>The ZEON address the message was signed with</source>
+        <translation>ZEON adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou XDNA adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ZEON address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou ZEON adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +598,12 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     <message>
-        <source>Send coins to a XDNA address</source>
-        <translation>Odoslať mince na adresu XDNA</translation>
+        <source>Send coins to a ZEON address</source>
+        <translation>Odoslať mince na adresu ZEON</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdna: URIs)</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>O XDNA Core</translation>
+        <source>&amp;About ZEON Core</source>
+        <translation>O ZEON Core</translation>
     </message>
     <message>
-        <source>Show information about XDNA Core</source>
-        <translation>Zobraziť informácie o XDNA Core</translation>
+        <source>Show information about ZEON Core</source>
+        <translation>Zobraziť informácie o ZEON Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XDNA</source>
-        <translation>Zmeňte možnosti konfigurácie pre XDNA</translation>
+        <source>Modify configuration options for ZEON</source>
+        <translation>Zmeňte možnosti konfigurácie pre ZEON</translation>
     </message>
     <message>
-        <source>Sign messages with your XDNA addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy XDNA, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your ZEON addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy ZEON, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XDNA addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými XDNA adresami</translation>
+        <source>Verify messages to ensure they were signed with specified ZEON addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými ZEON adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a XDNA: URI or payment request</source>
-        <translation>Otvorte XDNA: URI alebo žiadosť o platbu</translation>
+        <source>Open a ZEON: URI or payment request</source>
+        <translation>Otvorte ZEON: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the XDNA Core help message to get a list with possible XDNA command-line options</source>
-        <translation>Zobraziť pomocnú správu programu XDNA Core a získajte zoznam možností príkazového riadka XDNA</translation>
+        <source>Show the ZEON Core help message to get a list with possible ZEON command-line options</source>
+        <translation>Zobraziť pomocnú správu programu ZEON Core a získajte zoznam možností príkazového riadka ZEON</translation>
     </message>
     <message>
-        <source>XDNA Core client</source>
-        <translation>XDNA Core klient</translation>
+        <source>ZEON Core client</source>
+        <translation>ZEON Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1093,8 +1093,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XDNA address to sign the message with</source>
-        <translation>Adresa XDNA, ktorou chcete správu podpísať</translation>
+        <source>The ZEON address to sign the message with</source>
+        <translation>Adresa ZEON, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1117,16 +1117,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XDNA address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto XDNA adresy</translation>
+        <source>Sign the message to prove you own this ZEON address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto ZEON adresy</translation>
     </message>
     <message>
-        <source>The XDNA address the message was signed with</source>
-        <translation>XDNA adresa, ktorou bola správa podpísaná</translation>
+        <source>The ZEON address the message was signed with</source>
+        <translation>ZEON adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XDNA address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou XDNA adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified ZEON address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou ZEON adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ZEON Core</source>
+        <translation>ZEON Core</translation>
     </message>
     </context>
 <context>

@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The XDNA Core developers
+// Copyright (c) 2017-2018 The ZEON Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(XDNA);
-   // unitlist.append(mXDNA);
-   // unitlist.append(uXDNA);
+    unitlist.append(ZEON);
+   // unitlist.append(mZEON);
+   // unitlist.append(uZEON);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case XDNA:
-    case mXDNA:
-    case uXDNA:
+    case ZEON:
+    case mZEON:
+    case uZEON:
         return true;
     default:
         return false;
@@ -41,11 +41,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case ZEON:
         return QString("xdna");
-    case mXDNA:
+    case mZEON:
         return QString("mxdna");
-    case uXDNA:
+    case uZEON:
         return QString::fromUtf8("uxdna");
     default:
         return QString("???");
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case XDNA:
-            return QString("XDNA");
-        case mXDNA:
+        case ZEON:
+            return QString("ZEON");
+        case mZEON:
             return QString("mDNA");
-        case uXDNA:
-            return QString::fromUtf8("μXDNA");
+        case uZEON:
+            return QString::fromUtf8("μZEON");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case XDNA:
-            return QString("tXDNA");
-        case mXDNA:
+        case ZEON:
+            return QString("tZEON");
+        case mZEON:
             return QString("mXtDNA");
-        case uXDNA:
-            return QString::fromUtf8("μtXDNA");
+        case uZEON:
+            return QString::fromUtf8("μtZEON");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case XDNA:
-            return QString("XDNA");
-        case mXDNA:
-            return QString("Milli-XDNA (1 / 1" THIN_SP_UTF8 "000)");
-        case uXDNA:
-            return QString("Micro-XDNA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case ZEON:
+            return QString("ZEON");
+        case mZEON:
+            return QString("Milli-ZEON (1 / 1" THIN_SP_UTF8 "000)");
+        case uZEON:
+            return QString("Micro-ZEON (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case XDNA:
-            return QString("TestXDNAs");
-        case mXDNA:
-            return QString("Milli-TestXDNAs (1 / 1" THIN_SP_UTF8 "000)");
-        case uXDNA:
-            return QString("Micro-TestXDNAs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case ZEON:
+            return QString("TestZEONs");
+        case mZEON:
+            return QString("Milli-TestZEONs (1 / 1" THIN_SP_UTF8 "000)");
+        case uZEON:
+            return QString("Micro-TestZEONs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case ZEON:
         return 100000000;
-    case mXDNA:
+    case mZEON:
         return 100000;
-    case uXDNA:
+    case uZEON:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case XDNA:
+    case ZEON:
         return 8;
-    case mXDNA:
+    case mZEON:
         return 5;
-    case uXDNA:
+    case uZEON:
         return 2;
     default:
         return 0;

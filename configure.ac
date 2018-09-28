@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 1)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2018)
-AC_INIT([XDNA Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.xdna.io],[xdna])
+AC_INIT([ZEON Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.xdna.io],[xdna])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/xdna-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=xdna-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef XDNA_CONFIG_H])
-AH_TOP([#define XDNA_CONFIG_H])
-AH_BOTTOM([#endif //XDNA_CONFIG_H])
+AH_TOP([#ifndef ZEON_CONFIG_H])
+AH_TOP([#define ZEON_CONFIG_H])
+AH_BOTTOM([#endif //ZEON_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME
