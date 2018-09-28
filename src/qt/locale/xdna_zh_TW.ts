@@ -590,8 +590,8 @@
         <translation>送出錢幣到 ZEON 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 xdna 位址)</translation>
+        <source>Request payments (generates QR codes and zeon: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 zeon 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -974,6 +974,6 @@
     <name>ZXDnaControlDialog</name>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>zeon-core</name>
     </context>
 </TS>

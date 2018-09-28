@@ -606,7 +606,7 @@
         <translation>Send mønter til en ZEON adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and xdna: URIs)</source>
+        <source>Request payments (generates QR codes and zeon: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og ZEON URL)</translation>
     </message>
     <message>
@@ -813,8 +813,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (xdna.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (zeon.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (zeon.conf).</translation>
     </message>
 </context>
 <context>
@@ -1695,9 +1695,9 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</source>
+https://www.transifex.com/zeon-project/zeon-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/xdna-project/xdna-project-translations</translation>
+https://www.transifex.com/zeon-project/zeon-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2059,7 +2059,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start xdna: click-to-pay handler</source>
+        <source>Cannot start zeon: click-to-pay handler</source>
         <translation>Kan ikke starte ZEON "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -3835,7 +3835,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>xdna-core</name>
+    <name>zeon-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -4034,10 +4034,10 @@ https://www.transifex.com/xdna-project/xdna-project-translations</translation>
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:
+        <source>To use zeond, or the -server option to zeon-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=xdnarpc
+rpcuser=zeonrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4045,10 +4045,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "ZEON Alert" admin@foo.com
 </source>
-        <translation>For at bruge xdnad eller -server muligheden sammen med xdna-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge zeond eller -server muligheden sammen med zeon-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=xdnarpc
+Rpcuser=zeonrpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!

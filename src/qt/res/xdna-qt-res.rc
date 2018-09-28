@@ -1,5 +1,5 @@
-IDI_ICON1 ICON DISCARDABLE "icons/xdna.ico"
-IDI_ICON2 ICON DISCARDABLE "icons/xdna_testnet.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/zeon.ico"
+IDI_ICON2 ICON DISCARDABLE "icons/zeon_testnet.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
@@ -22,10 +22,10 @@ BEGIN
             VALUE "CompanyName",        "ZEON"
             VALUE "FileDescription",    "ZEON Core (OSS GUI client for ZEON)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "xdna-qt"
+            VALUE "InternalName",       "zeon-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "xdna-qt.exe"
+            VALUE "OriginalFilename",   "zeon-qt.exe"
             VALUE "ProductName",        "ZEON Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

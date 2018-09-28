@@ -3,7 +3,7 @@ ZEON
 
 Setup
 ---------------------
-[ZEON](http://xdna.io/wallet) is the original ZEON client and it builds the backbone of the network. However, it downloads and stores the entire history of ZEON transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[ZEON](http://zeon.io/wallet) is the original ZEON client and it builds the backbone of the network. However, it downloads and stores the entire history of ZEON transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,12 +13,12 @@ The following are some helpful notes on how to run ZEON on your native platform.
 
 Unpack the files into a directory and run:
 
-- bin/32/xdna-qt (GUI, 32-bit) or bin/32/xdnad (headless, 32-bit)
-- bin/64/xdna-qt (GUI, 64-bit) or bin/64/xdnad (headless, 64-bit)
+- bin/32/zeon-qt (GUI, 32-bit) or bin/32/zeond (headless, 32-bit)
+- bin/64/zeon-qt (GUI, 64-bit) or bin/64/zeond (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run xdna-qt.exe.
+Unpack the files into a directory, and then run zeon-qt.exe.
 
 ### OSX
 
@@ -26,9 +26,9 @@ Drag ZEON-Qt to your applications folder, and then run ZEON-Qt.
 
 ### Need Help?
 
-* See the documentation at the [ZEON Wiki](https://en.xdna.io/wiki/Main_Page) ***TODO***
+* See the documentation at the [ZEON Wiki](https://en.zeon.io/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org) or on the [ZEON Forum](http://forum.xdna.io/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org) or on the [ZEON Forum](http://forum.zeon.io/).
 * Join our Discord server [Discord Server](https://discord.gg/S9adMgS)
 
 Building
@@ -56,7 +56,7 @@ The ZEON repo's [root README](https://github.com/ZEON-Core/ZEON/blob/master/READ
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ZEON](http://forum.xdna.io/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ZEON](http://forum.zeon.io/) forum.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between xdna-cli and xdnad)
+ * CBaseChainParams defines the base parameters (shared between zeon-cli and zeond)
  * of a given instance of the ZEON system.
  */
 class CBaseChainParams

@@ -121,7 +121,7 @@ this->setStyleSheet(GUIUtil::loadStyleSheet());
 
 GUIUtil::restoreWindowGeometry("nWindow", QSize(1065, 670), this);
 //this->setFixedSize(1065,670);
-QFontDatabase::addApplicationFont(":/fonts/xdna_font");
+QFontDatabase::addApplicationFont(":/fonts/zeon_font");
 
 QString windowTitle = tr("ZEON Core") + " - ";
 #ifdef ENABLE_WALLET

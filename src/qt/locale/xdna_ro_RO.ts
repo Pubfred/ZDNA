@@ -183,6 +183,6 @@
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>zeon-core</name>
     </context>
 </TS>

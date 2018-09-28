@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../xdna.qrc">:/images/about</pixmap>
+      <pixmap resource="../zeon.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -97,7 +97,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../xdna.qrc"/>
+  <include location="../zeon.qrc"/>
  </resources>
  <connections>
   <connection>

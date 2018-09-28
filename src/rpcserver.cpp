@@ -324,24 +324,24 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* ZEON features */
-        {"xdna", "masternode", &masternode, true, true, false},
-        {"xdna", "listmasternodes", &listmasternodes, true, true, false},
-        {"xdna", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"xdna", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"xdna", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"xdna", "masternodedebug", &masternodedebug, true, true, false},
-        {"xdna", "startmasternode", &startmasternode, true, true, false},
-        {"xdna", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"xdna", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"xdna", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"xdna", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"xdna", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"xdna", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"xdna", "mnsync", &mnsync, true, true, false},
-        {"xdna", "spork", &spork, true, true, false},
-        {"xdna", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"zeon", "masternode", &masternode, true, true, false},
+        {"zeon", "listmasternodes", &listmasternodes, true, true, false},
+        {"zeon", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"zeon", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"zeon", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"zeon", "masternodedebug", &masternodedebug, true, true, false},
+        {"zeon", "startmasternode", &startmasternode, true, true, false},
+        {"zeon", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"zeon", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"zeon", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"zeon", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"zeon", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"zeon", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"zeon", "mnsync", &mnsync, true, true, false},
+        {"zeon", "spork", &spork, true, true, false},
+        {"zeon", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"xdna", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"zeon", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -606,10 +606,10 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use xdnad, or the -server option to xdna-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use zeond, or the -server option to zeon-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=xdnarpc\n"
+                                               "rpcuser=zeonrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
@@ -1066,7 +1066,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> xdna-cli " + methodname + " " + args + "\n";
+    return "> zeon-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

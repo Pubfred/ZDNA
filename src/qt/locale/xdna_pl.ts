@@ -526,8 +526,8 @@
         <translation>Wyślij monety do adresu ZEON</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i xdna:URI)</translation>
+        <source>Request payments (generates QR codes and zeon: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i zeon:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1225,9 +1225,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdna-project/xdna-project-translations</source>
+https://www.transifex.com/zeon-project/zeon-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/xdna-project/xdna-project-translations </translation>
+https://www.transifex.com/zeon-project/zeon-project-translations </translation>
     </message>
     <message>
         <source>Connect to the ZEON network through a SOCKS5 proxy.</source>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/xdna-project/xdna-project-translations </translation>
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>zeon-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

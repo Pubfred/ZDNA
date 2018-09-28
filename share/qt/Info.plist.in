@@ -11,7 +11,7 @@
   </array>
 
   <key>CFBundleIconFile</key>
-  <string>xdna.icns</string>
+  <string>zeon.icns</string>
 
   <key>CFBundlePackageType</key>
   <string>APPL</string>
@@ -32,7 +32,7 @@
   <string>ZEON-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.xdna.ZEON-Qt</string>
+  <string>io.zeon.ZEON-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.xdna.XDnaPayment</string>
+      <string>io.zeon.XDnaPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>xdna</string>
+        <string>zeon</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.xdna.paymentrequest</string>
+      <string>io.zeon.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>ZEON payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-xdna-payment-request</string>
+        <string>application/x-zeon-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>xdnapaymentrequest</string>
+          <string>zeonpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.xdna.paymentrequest</string>
+        <string>io.zeon.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

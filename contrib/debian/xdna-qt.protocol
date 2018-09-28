@@ -1,6 +1,6 @@
 [Protocol]
-exec=xdna-qt '%u'
-protocol=xdna
+exec=zeon-qt '%u'
+protocol=zeon
 input=none
 output=none
 helper=true

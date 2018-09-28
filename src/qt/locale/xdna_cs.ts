@@ -606,8 +606,8 @@
         <translation>Odeslat platbuna ZEON adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a xdna: URIs)</translation>
+        <source>Request payments (generates QR codes and zeon: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a zeon: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xdna.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (xdna.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (zeon.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (zeon.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -2382,7 +2382,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>zeon-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

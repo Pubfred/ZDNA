@@ -473,7 +473,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("ZEONMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("xdna-miner");
+    RenameThread("zeon-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

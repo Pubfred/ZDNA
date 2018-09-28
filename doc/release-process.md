@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/xdna-project/gitian.sigs.git
-    git clone https://github.com/xdna-project/xdna-detached-sigs.git
+    git clone https://github.com/zeon-project/gitian.sigs.git
+    git clone https://github.com/zeon-project/zeon-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/xdna-project/xdna.git
+    git clone https://github.com/zeon-project/zeon.git
 
 ### ZEON maintainers/release engineers, suggestion for writing release notes
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./xdna
+    pushd ./zeon
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../xdna/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../zeon/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,7 +92,7 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url xdna=/path/to/xdna,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url zeon=/path/to/zeon,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
@@ -100,47 +100,47 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 ### Build and sign ZEON Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/xdna-*.tar.gz build/out/src/xdna-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit zeon=v${VERSION} ../zeon/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../zeon/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/zeon-*.tar.gz build/out/src/zeon-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/xdna-*-win-unsigned.tar.gz inputs/xdna-win-unsigned.tar.gz
-    mv build/out/xdna-*.zip build/out/xdna-*.exe ../
+    ./bin/gbuild --memory 3000 --commit zeon=v${VERSION} ../zeon/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../zeon/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/zeon-*-win-unsigned.tar.gz inputs/zeon-win-unsigned.tar.gz
+    mv build/out/zeon-*.zip build/out/zeon-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/xdna-*-osx-unsigned.tar.gz inputs/xdna-osx-unsigned.tar.gz
-    mv build/out/xdna-*.tar.gz build/out/xdna-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit zeon=v${VERSION} ../zeon/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../zeon/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/zeon-*-osx-unsigned.tar.gz inputs/zeon-osx-unsigned.tar.gz
+    mv build/out/zeon-*.tar.gz build/out/zeon-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit xdna=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/xdna-*.tar.gz build/out/src/xdna-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit zeon=v${VERSION} ../zeon/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../zeon/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/zeon-*.tar.gz build/out/src/zeon-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`xdna-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`xdna-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`xdna-${VERSION}-win[32|64]-setup-unsigned.exe`, `xdna-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`xdna-${VERSION}-osx-unsigned.dmg`, `xdna-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`zeon-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`zeon-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`zeon-${VERSION}-win[32|64]-setup-unsigned.exe`, `zeon-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`zeon-${VERSION}-osx-unsigned.dmg`, `zeon-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import xdna/contrib/gitian-keys/*.pgp
+    gpg --import zeon/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../xdna/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../xdna/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../xdna/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../xdna/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../zeon/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../zeon/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../zeon/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../zeon/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer xdna-osx-unsigned.tar.gz to osx for signing
-    tar xf xdna-osx-unsigned.tar.gz
+    transfer zeon-osx-unsigned.tar.gz to osx for signing
+    tar xf zeon-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf xdna-win-unsigned.tar.gz
+    tar xf zeon-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/xdna-detached-sigs
+    cd ~/zeon-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [xdna-detached-sigs](https://github.com/PIVX-Project/xdna-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [zeon-detached-sigs](https://github.com/PIVX-Project/zeon-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../xdna/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/xdna-osx-signed.dmg ../xdna-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../zeon/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../zeon/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../zeon/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/zeon-osx-signed.dmg ../zeon-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../xdna/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/xdna-*win64-setup.exe ../xdna-${VERSION}-win64-setup.exe
-    mv build/out/xdna-*win32-setup.exe ../xdna-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../zeon/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../zeon/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../zeon/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/zeon-*win64-setup.exe ../zeon-${VERSION}-win64-setup.exe
+    mv build/out/zeon-*win32-setup.exe ../zeon-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,23 +230,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-xdna-${VERSION}-aarch64-linux-gnu.tar.gz
-xdna-${VERSION}-arm-linux-gnueabihf.tar.gz
-xdna-${VERSION}-i686-pc-linux-gnu.tar.gz
-xdna-${VERSION}-x86_64-linux-gnu.tar.gz
-xdna-${VERSION}-osx64.tar.gz
-xdna-${VERSION}-osx.dmg
-xdna-${VERSION}.tar.gz
-xdna-${VERSION}-win32-setup.exe
-xdna-${VERSION}-win32.zip
-xdna-${VERSION}-win64-setup.exe
-xdna-${VERSION}-win64.zip
+zeon-${VERSION}-aarch64-linux-gnu.tar.gz
+zeon-${VERSION}-arm-linux-gnueabihf.tar.gz
+zeon-${VERSION}-i686-pc-linux-gnu.tar.gz
+zeon-${VERSION}-x86_64-linux-gnu.tar.gz
+zeon-${VERSION}-osx64.tar.gz
+zeon-${VERSION}-osx.dmg
+zeon-${VERSION}.tar.gz
+zeon-${VERSION}-win32-setup.exe
+zeon-${VERSION}-win32.zip
+zeon-${VERSION}-win64-setup.exe
+zeon-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the xdna.io server*.
+space *do not upload these to the zeon.io server*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -262,7 +262,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/xdna, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/zeon, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 

@@ -3,17 +3,17 @@ Description=ZEON's distributed currency daemon
 After=network.target
 
 [Service]
-User=xdna
-Group=xdna
+User=zeon
+Group=zeon
 
 Type=forking
-PIDFile=/var/lib/xdnad/xdnad.pid
+PIDFile=/var/lib/zeond/zeond.pid
 
-ExecStart=/usr/bin/xdnad -daemon -pid=/var/lib/xdnad/xdnad.pid \
-          -conf=/etc/xdna/xdna.conf -datadir=/var/lib/xdnad
+ExecStart=/usr/bin/zeond -daemon -pid=/var/lib/zeond/zeond.pid \
+          -conf=/etc/zeon/zeon.conf -datadir=/var/lib/zeond
 
-ExecStop=-/usr/bin/xdna-cli -conf=/etc/xdna/xdna.conf \
-         -datadir=/var/lib/xdnad stop
+ExecStop=-/usr/bin/zeon-cli -conf=/etc/zeon/zeon.conf \
+         -datadir=/var/lib/zeond stop
 
 Restart=always
 PrivateTmp=true

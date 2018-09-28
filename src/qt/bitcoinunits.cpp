@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case ZEON:
-        return QString("xdna");
+        return QString("zeon");
     case mZEON:
-        return QString("mxdna");
+        return QString("mzeon");
     case uZEON:
-        return QString::fromUtf8("uxdna");
+        return QString::fromUtf8("uzeon");
     default:
         return QString("???");
     }

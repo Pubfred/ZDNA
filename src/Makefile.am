@@ -70,15 +70,15 @@ noinst_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += xdnad
+  bin_PROGRAMS += zeond
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += xdna-cli xdna-tx
+  bin_PROGRAMS += zeon-cli zeon-tx
 endif
 
 .PHONY: FORCE
-# xdna core #
+# zeon core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -174,7 +174,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between xdnad and xdna-qt
+# server: shared between zeond and zeon-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -215,7 +215,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between xdnad and xdna-qt, but only linked
+# wallet: shared between zeond and zeon-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -315,7 +315,7 @@ crypto_libbitcoin_crypto_a_SOURCES += \
  crypto/hex/hex.c \
  crypto/hex/hex.h
 
-# common: shared between xdnad, and xdna-qt and non-server tools
+# common: shared between zeond, and zeon-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -373,7 +373,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between xdna-cli and xdna-qt
+# cli: shared between zeon-cli and zeon-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -383,16 +383,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# xdnad binary #
-xdnad_SOURCES = xdnad.cpp
-xdnad_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-xdnad_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-xdnad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# zeond binary #
+zeond_SOURCES = zeond.cpp
+zeond_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+zeond_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zeond_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-xdnad_SOURCES += xdnad-res.rc
+zeond_SOURCES += zeond-res.rc
 endif
-xdnad_LDADD = \
+zeond_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -404,41 +404,41 @@ xdnad_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-xdnad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+zeond_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# xdna-cli binary #
-xdna_cli_SOURCES = xdna-cli.cpp
-xdna_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-xdna_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-xdna_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# zeon-cli binary #
+zeon_cli_SOURCES = zeon-cli.cpp
+zeon_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+zeon_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zeon_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-xdna_cli_SOURCES += xdna-cli-res.rc
+zeon_cli_SOURCES += zeon-cli-res.rc
 endif
 
-xdna_cli_LDADD = \
+zeon_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-xdna_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+zeon_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# xdna-tx binary #
-xdna_tx_SOURCES = xdna-tx.cpp
-xdna_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-xdna_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-xdna_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# zeon-tx binary #
+zeon_tx_SOURCES = zeon-tx.cpp
+zeon_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+zeon_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zeon_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-xdna_tx_LDADD = \
+zeon_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-xdna_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+zeon_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 if BUILD_BITCOIN_LIBS

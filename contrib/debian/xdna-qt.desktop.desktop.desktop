@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Name=ZEON
 Comment=ZEON P2P Cryptocurrency
-Exec=xdna-qt %u
+Exec=zeon-qt %u
 Terminal=false
 Type=Application
-Icon=xdna128
-MimeType=x-scheme-handler/xdna;
+Icon=zeon128
+MimeType=x-scheme-handler/zeon;
 Categories=Office;Finance;
-Name[ru]=xdna-qt.desktop.desktop
+Name[ru]=zeon-qt.desktop.desktop

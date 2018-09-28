@@ -591,8 +591,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Skicka mynt till en ZEON adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and xdna: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och xdna: URls)</translation>
+        <source>Request payments (generates QR codes and zeon: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och zeon: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1365,7 +1365,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>zeon-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

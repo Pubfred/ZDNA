@@ -1,25 +1,25 @@
-# /etc/conf.d/xdnad: config file for /etc/init.d/xdnad
+# /etc/conf.d/zeond: config file for /etc/init.d/zeond
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/xdna/xdna.conf"
+#BITCOIND_CONFIGFILE="/etc/zeon/zeon.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/xdnad"
+#BITCOIND_PIDDIR="/var/run/zeond"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xdnad.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/zeond.pid"
 
-# Where to write xdnad data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/xdnad"
+# Where to write zeond data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/zeond"
 
-# User and group to own xdnad process
-#BITCOIND_USER="xdna"
-#BITCOIND_GROUP="xdna"
+# User and group to own zeond process
+#BITCOIND_USER="zeon"
+#BITCOIND_GROUP="zeon"
 
-# Path to xdnad executable
-#BITCOIND_BIN="/usr/bin/xdnad"
+# Path to zeond executable
+#BITCOIND_BIN="/usr/bin/zeond"
 
-# Nice value to run xdnad under
+# Nice value to run zeond under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
